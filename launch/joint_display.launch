@@ -1,5 +1,5 @@
 <launch>
-  <arg name="model" />
+  <arg name="model" default="$(find vis_lecture)/urdf/simple_body4.urdf"/>
   <arg name="rvizconfig" default="$(find vis_lecture)/rviz/joint_display.rviz" />
   <arg name="length0" default="1.0" />
 
